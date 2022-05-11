@@ -14,6 +14,5 @@ int main() {
 	case '-': result sub(a,b); break;
 	case '*': result mul(a,b); break;
 	}
-
 	printf("%lld\n",result);
 }
